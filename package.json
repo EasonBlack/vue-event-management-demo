@@ -1,0 +1,53 @@
+{
+  "name": "vue-time-management",
+  "description": "A vue project about time management",
+  "author": "eason xu<eason820720@163.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --watch-poll --hot"
+  },
+  "dependencies": {
+    "echarts": "^3.4.0",
+    "moment": "^2.17.1",
+    "node-uuid": "^1.4.8",
+    "vue": "^2.3.2",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.0.1",
+    "vuex": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-component": "^0.9.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-preset-vue-app": "^1.2.0",
+    "babel-runtime": "^6.0.0",
+    "bump": "^0.2.5",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "cssnext-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^2.24.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^12.0.3",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.3.2",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}

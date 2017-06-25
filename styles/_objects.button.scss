@@ -1,0 +1,29 @@
+@import 'settings.variable';
+
+.btn {
+  display: block;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  cursor: pointer;
+  color: white;
+  padding:0 10px;
+}
+
+.btn__primary {
+  background-color: #{$time_color};
+}
+
+.btn__important {
+  background-color: #{$trophy_color};
+  color: white;
+}
+.btn__urgent {
+  background-color: #{$urgent_color};
+  color:white;
+}
+
+.btn__cancel {
+  border: 1px solid grey;
+  color: grey;
+}

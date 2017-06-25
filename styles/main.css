@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: bootstrap, Arial;
+  position: relative; }
+
+#app {
+  width: 100vw;
+  height: 100vh; }
+
+ul {
+  list-style: none; }
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex__1 {
+  flex: 1;
+  display: flex; }
+
+.full__width {
+  width: 100%; }
+
+.flex__left {
+  justify-content: flex-start; }
+
+.flex__center {
+  justify-content: center; }
+
+.flex__right {
+  justify-content: flex-end; }
+
+.main__loading {
+  position: absolute;
+  display: block;
+  width: 30px;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  animation: rotating 2s linear infinite; }
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.btn {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  padding: 0 10px; }
+
+.btn__primary {
+  background-color: steelblue; }
+
+.btn__important {
+  background-color: #1DB496;
+  color: white; }
+
+.btn__urgent {
+  background-color: #df3434;
+  color: white; }
+
+.btn__cancel {
+  border: 1px solid grey;
+  color: grey; }
+
+.form__row {
+  margin-bottom: 20px; }
+
+.row__label {
+  font-size: 12px;
+  margin-bottom: 5px; }
+
+@font-face {
+  font-family: 'nva_fontello';
+  src: url("../fonts/fontello.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "nva_fontello";
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center; }
+
+.icon-plus:before {
+  content: '\e800'; }
+
+.icon-minus:before {
+  content: '\e805'; }
+
+.icon-plus-squared:before {
+  content: '\e807'; }
+
+.icon-minus-squared:before {
+  content: '\e808'; }
+
+.icon-calendar:before {
+  content: '\e801'; }
+
+.icon-right-open:before {
+  content: '\e802'; }
+
+.icon-left-open:before {
+  content: '\e803'; }
+
+.icon-down-open:before {
+  content: '\e804'; }
+
+.icon-up-open:before {
+  content: '\e806'; }
+
+.icon-table:before {
+  content: '\f0ce'; }
+
+.icon-angle-double-left:before {
+  content: '\f100'; }
+
+.icon-angle-double-right:before {
+  content: '\f101'; }
+
+.icon-quora:before {
+  content: '\f2c4'; }
+
+/*# sourceMappingURL=main.css.map */
